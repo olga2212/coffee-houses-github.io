@@ -1,0 +1,878 @@
+body {
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+    background-color:#171717;
+    overflow: hidden;
+}
+
+.mainContainer {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.background {
+    background-image: url("https://cdn.glitch.global/d1b76f07-9de1-4406-8f04-278280b6ed97/one.jpg?v=1674459772258");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-position: 10% 0%;
+    background-attachment: fixed;
+    z-index: -1;
+    position: absolute;
+}
+
+.topnav {
+    display: flex; 
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.23), rgba(0, 0, 0, 0.395), rgba(26, 26, 26, 0.151));
+    height: 100vh;
+    position: relative;
+    top: 0;
+    left: 0;
+    font-family: 'Kanit', sans-serif;
+    z-index: 10;
+}
+
+.logo {
+    border-radius: 50%;
+    margin: 30px 0px 0px 45px;
+}
+
+.item {
+    color: #ffffff;
+    text-align: center;
+    object-position: center;
+    padding: 10px 20px; 
+    text-decoration: none;
+    font-size: 22px;
+    margin-right: auto;
+    line-height: 90%;
+    padding: 58px 13px 0px 10px;
+} 
+
+.brand {
+    font-size: 50px;
+    font-weight: 700;
+    color: #c0aa83; 
+}
+
+.brandTwo{
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.topnav #myLinks {
+    display: none; 
+    margin-right: 150px;
+    margin-top: 50px;
+    background-color: #0f0e0eaf;
+    padding: 15px 3px;
+    align-self: flex-start; 
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 100px;
+    top: 50px;
+    font-size: 35px;
+}
+
+.link:hover {
+    border-bottom: 5px solid #c0aa83;
+    color: #c0aa83;
+    transition: all 0.5s ease;
+} 
+
+.pageText {
+    padding: 20px;
+    position: absolute;
+    top: 230px;
+    left: 750px;
+}
+
+.mainHeader {
+    font-size: 100px;
+    font-weight: 700;
+    font-family: 'Kanit', sans-serif;
+    color: #ffffff;
+    margin: 0;
+}
+
+.paragraph {
+    width: 500px;
+    color: #ffffff;
+    font-size: 17px;
+    margin: 0px 10px 40px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+}
+
+.buttons {
+    margin-left: 10px;
+}
+
+.btnOne {
+    margin-right: 10px;
+    background-color: #c0aa83;
+}
+
+.btnTwo {
+    background-color: #171717;
+}
+
+.btnOne, .btnTwo {
+    border: none;
+    padding: 17px 22px;
+    font-family: 'Kanit', sans-serif;
+    width: 180px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.btnOne:hover, .btnTwo:hover {
+    border: 2px solid black;
+    background-color: #ffffff;
+    color: #171717;
+    padding: 15px 20px;
+    transition: all 1s ease;
+}
+
+.container {
+    background-color: #171717;
+    display: flex;
+    justify-content: space-evenly;
+    height: 600px;
+    position: relative;
+    z-index: -2;
+    padding: 50px 90px 30px 90px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.map {
+    width: 900px;
+    opacity: 0.3;
+    position: absolute;
+    top: 120px;
+    left: 20%;
+    right: 25%;
+    z-index: -1;
+}
+
+.blockOne {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.who {
+    margin-bottom: -10px;
+    margin-left: 5px;
+    color: #c0aa83;
+    font-size: 25px;
+    font-weight: 700; 
+    font-family: 'Kanit', sans-serif;  
+}
+
+.aboutUs {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    color: #fff;
+    font-size: 60px;
+    font-family: 'Kanit', sans-serif;
+    line-height: 1.1;
+}
+
+.par {
+    color: #6d6d6d;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+}
+
+.blockTwo {
+    margin-top: 50px;
+}
+
+.openHours {
+    color: #fff;
+    font-size: 35px;
+    margin-top: 20px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.hours {
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 170%;
+    display: block;
+}
+
+.day {
+    color: #c0aa83;  
+    font-family: 'Kanit', sans-serif;
+}
+
+.blockThree {
+    margin-top: 70px;
+}
+
+.sectionMenu {
+    background-color: #171717;
+    padding-bottom: 100px;
+}
+
+.containerHeader {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+
+.line {
+    height: 2px;
+    width: 150px;
+    margin: 40px;
+    border: none;
+    background-color: #c0aa83;
+}
+
+.headerMenu {
+    color: #c0aa83;
+    font-size: 50px;
+    margin: 0px 10px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+}
+
+.drinks {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 35px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+}
+
+.specials {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-reviews {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.704), rgba(5, 9, 29, 0.674), rgba(0, 0, 0, 0.578)), url("https://cdn.glitch.global/d1b76f07-9de1-4406-8f04-278280b6ed97/backReviews.jpg?v=1674459406977");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.slides {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame {
+    border: 8px solid #c0aa83;
+    text-align: center;
+    width: 900px;
+    height: 600px;
+    color: #fff;
+    padding: 60px;
+    margin-bottom: 80px;
+    display: none;
+    transform-style: preserve-3d;
+    animation: rotate .5s linear;
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotateY(180deg);
+    }
+}
+
+.customer-name {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.review {
+    font-size: 26px;
+    padding: 20px 40px;
+}
+
+.active {
+    display: block;
+}
+
+.btn {
+    border: none;
+    font-size: 25px;
+    font-weight: 400;
+    background-color: #c0aa83;
+    cursor: pointer;
+    padding: 7px 17px 8px;
+    margin: 30px;
+}
+
+.btn:hover {
+    background-color: #fff;
+}
+
+.sectionOffer {
+    background-color:#242424;
+    display: flex;
+    margin: 80px 150px;
+    padding: 0px;
+    text-align: center;
+}
+
+.headerOffer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.offerSp {
+    font-size: 24px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+    line-height: 10%;
+}
+
+.getDiscount {
+    font-size: 55px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700;
+    color: #c0aa83;
+    margin: 0;
+}
+
+.card {
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.imageOffer {
+    flex: 1;
+    margin: 0;
+}
+
+.location {
+    display: flex;
+
+}
+
+iframe {
+    flex: 1;
+}
+
+.footer {
+    background-image: url("https://cdn.glitch.global/d1b76f07-9de1-4406-8f04-278280b6ed97/map2.jpg?v=1674459439374");
+    background-position: center;
+    background-size: cover;
+    z-index: -1;  
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #242424;
+    padding: 50px;
+    opacity: 80%;
+    color: #ffffff;
+    font-family: 'Kanit', sans-serif;
+}
+
+.contacts h3 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 40px;
+}
+
+.fa-brands {
+    color: #c0aa83;
+    font-size: 40px;
+    padding: 3px;
+}
+
+.fa-brands:hover {
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.dev {
+    font-size: 15px;
+    font-weight: 200;
+    margin: 3px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.top {
+    background-color: #c0aa83;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding: 10px 13px;
+    margin-top: 3px;
+    position: absolute;
+    right: 170px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 15px;
+    color: #000000;
+}
+
+.top:hover {
+    background-color: #ffffff;
+    transition: all 0.6s ease;
+}
+
+@media all and (max-width: 820px) { 
+    .mainContainer {
+        height: 50vh;
+    }    
+
+    .background {
+        background-position: 50%;
+    }
+
+    .topnav {
+        width: 100%;
+        height: 87px;
+    }
+
+    .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+
+    .topnav #myLinks {
+        margin-top: 10px;
+        background-color: #0f0e0eaf;
+        padding: 10px 3px;
+        width: 100%;
+    }
+
+    .logo {
+        margin: 18px 0px 0px 30px;
+        width: 50px;
+        height: 48px;
+    }
+
+    .coffeeZone {
+        position: absolute;
+        top: 20px;
+        left: 70px;
+    }
+
+    .brand {
+        font-size: 30px;
+    }
+
+    .topnav a.icon {
+        background-color: #c0aa83;
+        padding: 5px 10px;
+        font-size: 25px;
+        top: 25px;
+        right: 20px;
+    }
+
+    .mainHeader {
+        margin-top: 100px;
+        font-size: 50px;
+    }
+
+    .pageText {
+        padding: 10px;
+        position: absolute;
+        top: 80px;
+        left: 10px;
+    }
+
+    .paragraph {
+        color: #ffffff;
+        font-size: 20px;
+        margin: 0px 0px 30px;
+        font-family: 'Kanit', sans-serif;
+        font-weight: 300;
+        width: 400px;
+    }
+
+    .buttons {
+        margin-left: 0px;
+    }
+
+    .btnOne, .btnTwo {
+        padding: 15px 25px;
+        width: 180px;
+        font-weight: 600;
+    }
+
+    .map {
+        width: 700px;
+        top: 80px;
+        left: 10%;
+        right: 5%;
+    }
+
+    .blockThree img {
+        display: none;
+    }
+
+    .container {
+        padding: 10px;
+        height: 400px;
+    }
+
+    .who {
+        font-size: 22px;
+    }
+    
+    .aboutUs {
+        font-size: 40px;
+    }
+
+    .par {
+        font-size: 18px;
+        margin: 0px;
+    }
+
+    .openHours {
+        font-size: 30px;
+    }
+    
+    .hours {
+        font-size: 18px;
+    }
+
+    .sectionMenu {
+        padding-bottom: 20px;
+    }
+
+    .containerHeader {
+        margin-top: 50px;
+    }
+
+    .line {
+        width: 80px;
+    }
+
+
+    .menuImage {
+        width: 700px;
+        height: auto;
+    }
+
+    .container-reviews {
+        position: relative;
+    }
+
+    .frame {
+        width: 600px;
+        height: 480px;
+        padding: 10px;
+    }
+
+    .customer-name {
+        font-size: 17px;
+        padding: 20px;
+    }
+    
+    .review {
+        font-size: 20px;
+        padding: 20px 40px;
+    }
+
+    .sectionOffer {
+        margin: 50px 30px;
+        padding: 20px 0px;
+    }
+    
+    .offerSp {
+        font-size: 20px;
+    }
+
+    .getDiscount {
+        font-size: 45px;
+    }
+
+    .imageOffer {
+        display: none;
+    }
+
+    .card {
+        margin-top: 35px;
+        margin-bottom: 30px;
+    }
+    
+    .top {
+        right: 10px;
+        font-size: 10px;
+    }
+}
+
+@media all and (max-width: 540px) {
+    .mainContainer {
+        height: 50vh;
+    }    
+
+    .background {
+        background-position: 50%;
+    }
+
+    .topnav {
+        position: fixed;
+        transition: 0.5s;
+        flex-direction: column;
+        background-color: #0f0e0eaf;
+        width: 100%;
+        height: 87px;
+    }
+
+    .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+
+    .topnav #myLinks {
+        margin-top: 10px;
+        background-color: #0f0e0eaf;
+        padding: 10px 3px;
+        width: 100%;
+    }
+
+    .logo {
+        margin: 18px 0px 0px 30px;
+        width: 50px;
+        height: 48px;
+    }
+
+    .coffeeZone {
+        position: absolute;
+        top: 20px;
+        left: 70px;
+    }
+
+    .brand {
+        font-size: 30px;
+    }
+
+    .topnav a.icon {
+        background-color: #c0aa83;
+        padding: 5px 10px;
+        font-size: 25px;
+        top: 25px;
+        right: 20px;
+    }
+
+    .mainHeader {
+        margin-top: 50px;
+        font-size: 30px;
+    }
+
+    .pageText {
+        padding: 10px;
+        position: absolute;
+        top: 80px;
+        left: 10px;
+    }
+
+    .paragraph {
+        color: #ffffff;
+        font-size: 14px;
+        margin: 0px 0px 30px;
+        font-family: 'Kanit', sans-serif;
+        font-weight: 300;
+        width: 300px;
+    }
+
+    .buttons {
+        margin-left: 0px;
+    }
+
+    .btnOne, .btnTwo {
+        padding: 10px 18px;
+        width: 110px;
+        font-weight: 600;
+    }
+
+    .map {
+        width: 400px;
+        top: 80px;
+        left: 1%;
+        right: 5%;
+    }
+
+    .blockThree img {
+        display: none;
+    }
+
+    .container {
+        padding: 10px;
+        height: 300px;
+    }
+
+    .who {
+        font-size: 18px;
+    }
+    
+    .aboutUs {
+        font-size: 30px;
+    }
+
+    .par {
+        font-size: 13px;
+        margin: 0px 5px;
+    }
+
+    .openHours {
+        font-size: 20px;
+    }
+    
+    .hours {
+        font-size: 12px;
+    }
+
+    .sectionMenu {
+        padding-bottom: 30px;
+    }
+
+    .line {
+        width: 50px;
+        margin: 32px 15px 0px;
+    }
+
+    .headerMenu {
+        font-size: 40px;
+        margin: 0px;   
+    }
+
+    .menuImage {
+        width: 380px;
+        height: auto;
+    }
+
+    .container-reviews {
+        position: relative;
+    }
+
+    .frame {
+        width: 350px;
+        height: 530px;
+        padding: 10px;
+    }
+
+    .customer-name {
+        font-size: 14px;
+        padding: 20px;
+    }
+    
+    .review {
+        font-size: 17px;
+        padding: 20px 40px;
+    }
+
+    .btn {
+        position: absolute;
+        border: none;
+        font-size: 25px;
+        font-weight: 400;
+        background-color: #c0aa83;
+        cursor: pointer;
+        padding: 7px 17px 8px;
+        margin: 0px 20px;
+        z-index: 2;
+    }
+
+    #back {
+        left: 3px;
+        bottom: 370px;
+    }
+
+    #next {
+        right: 3px;
+        bottom: 370px;
+    }
+
+    .sectionOffer {
+        margin: 50px 30px;
+        padding: 20px 0px;
+    }
+    
+    .offerSp {
+        font-size: 20px;
+    }
+
+    .getDiscount {
+        font-size: 45px;
+    }
+
+    .imageOffer {
+        display: none;
+    }
+
+    .card {
+        margin-top: 35px;
+        margin-bottom: 30px;
+    }
+
+    .top {
+        right: 10px;
+        font-size: 10px;
+    }
+}
+
+@media all and (max-width: 380px) {
+    .paragraph {
+        margin: 0px 0px 10px;
+    }
+
+    .top {
+        right: 10px;
+        font-size: 10px;
+    }
+}
